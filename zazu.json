@@ -1,0 +1,21 @@
+{
+  "name": "zazu-toggle-pref",
+  "blocks": {
+    "input": [
+      {
+        "id": "toggleTapClick",
+        "type": "RootScript",
+        "script": "ttc.js",
+        "connections": ["process"]
+      }
+    ],
+    "output": [
+      {
+        "id": "process",
+        "type": "UserScript",
+        "script": "ttcExec.js",
+        "connections": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "zazu-toggle-pref",
+  "version": "0.0.1",
+  "main": "ttc.js",
+  "license": "Unlicense",
+  "scripts": {
+  },
+  "dependencies": {
+    "applescript": "^1.0.0"
+  },
+  "devDependencies": {
+  }
+}
